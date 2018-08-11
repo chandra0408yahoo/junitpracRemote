@@ -92,7 +92,7 @@
                 <configuration>
 
                         <includes>
-                            <include>runner.runnerclass.java</include>
+                            <include>Runner.runnerclass.java</include>
                         </includes>
                     </configuration>
             </plugin>
