@@ -10,9 +10,7 @@ import org.junit.runner.RunWith;
         features ="src/test/resource",
         strict=true,
         monochrome= true,
-        glue = {"StepDefinitions"}
-
-      // , tags={""}
+        glue = {"StepDefinitions"}, tags={"@Test"}
 )
 
 public class runnerclass {
