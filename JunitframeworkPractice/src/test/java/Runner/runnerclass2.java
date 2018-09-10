@@ -7,12 +7,12 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin ={"pretty","html:target/cucumber"},
-        features ="src/test/resource/FirstFeature.feature",
+        features ="src/test/resource/SecondFeature2.feature",
         strict=true,
         monochrome= true,
         glue = {"StepDefinitions"}, tags={"@Test,~@Test1"}
 )
 
-public class runnerclass {
+public class runnerclass2 {
 
 }
