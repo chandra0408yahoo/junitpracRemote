@@ -17,8 +17,7 @@ public class homepagestepdefs {
 
 	public homepagemethods homepage_method;
 
-	//dfkdjfjf
-	//fdsfhfdshf
+	
     public homepagestepdefs() throws IOException {
     	webconnector.intialise();
       homepage_method  =PageFactory.initElements(webconnector.open_browser(),homepagemethods.class);
@@ -35,12 +34,12 @@ public class homepagestepdefs {
 		
 	}
 	
-	@After()
+	/*@After()
 	public void firstafter(){
 		System.out.println("after Method");
 		webconnector.driver.quit();
 		
-	}
+	}*/
 	
 	/*@After("@web")
 	public void secondafter(){
